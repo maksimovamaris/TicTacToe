@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:id="@+id/win_layout"
+        android:layout_margin="16dp"
+        >
+
+        <TextView
+            android:id="@+id/win_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/layout_margin"
+            android:textAlignment="center"
+            android:text="@string/the_game_is_over"
+            android:textSize="@dimen/text_size"/>
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_margin"
+            android:text="@string/exit_game"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/text_size"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimary"
+            />
+
+        <Button
+            android:id="@+id/restart_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_margin"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/text_size"
+            android:textAllCaps="false"
+            android:text="@string/restart_game"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
